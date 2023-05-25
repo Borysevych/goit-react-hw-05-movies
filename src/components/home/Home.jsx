@@ -14,7 +14,7 @@ const Home = () => {
       })
       .catch(console.log);
   }, []);
-  console.log(movies);
+  
   if (!movies) {
     return;
   }
